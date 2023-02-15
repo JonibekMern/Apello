@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../font/Inter/Inter-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../font/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "FontAwesome Solid";
+  src: url(../WebIcons/fa-solid-900.woff2);
+  font-weight: 900;
+}
+.fas {
+  font-family: "FontAwesome Solid";
+  font-weight: 900;
+}
+.chevron-left::before {
+  content: "\f053";
+  font-size: 25px;
+  font-style: normal;
+  color: black;
+}
+.chevron-right::before {
+  content: "\f054";
+  font-size: 25px;
+  font-style: normal;
+  color: black;
+}

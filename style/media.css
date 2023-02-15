@@ -1,0 +1,215 @@
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+  .relation {
+    margin-top: 2500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .header {
+    top: 20px;
+  }
+  .nav {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .partner-container {
+    flex-direction: column;
+  }
+  .partner-titles {
+    max-width: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+  }
+  .partners-flex {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+  .relation {
+    margin-top: 2150px;
+  }
+  .regional-card {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .callback {
+    min-height: auto;
+    height: 600px;
+  }
+  .callback-form {
+    min-width: 400px;
+    padding: 32px 25px;
+    margin-top: 100px;
+  }
+  .footer-middle {
+    grid-template-columns: repeat(auto-fit, 290px);
+    gap: 50px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .hero {
+    padding: 240px 0 150px;
+  }
+  .nav-list {
+    flex-wrap: wrap;
+  }
+  .partner {
+    margin-bottom: 60px;
+  }
+  .partner-container {
+    padding: 0;
+  }
+  .partners-flex {
+    gap: 50px;
+  }
+  .stage-title-desc {
+    text-align: center;
+  }
+  .stage-box {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    justify-content: center;
+  }
+  .portfolio {
+    padding: 80px 0 550px;
+  }
+  .portfolio-card {
+    grid-template-columns: repeat(auto-fit, 420px);
+    top: 785px;
+  }
+  .relation-container {
+    margin-top: 785px;
+  }
+  .relation-services {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    row-gap: 50px;
+  }
+  .slider-btn {
+    display: none;
+  }
+  .resources,
+  .career,
+  .faq,
+  .industry {
+    padding: 80px 0 80px;
+  }
+  .resources-desc {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .footer-middle {
+    justify-content: flex-start;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .hero {
+    padding: 300px 0 110px;
+  }
+  .site-title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .section-link {
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+  }
+  .partner-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+  .partners-titles {
+    padding: 20px;
+  }
+  .partner-container {
+    padding-bottom: 30px;
+  }
+  .stage-launch {
+    gap: 60px;
+    margin-bottom: 30px;
+  }
+  .stage-launch-link {
+    font-size: 16px;
+  }
+  .stage-box {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .stage-box-item {
+    padding: 30px 50px 30px 30px;
+  }
+  .portfolio {
+    padding-bottom: 0 !important;
+  }
+  .portfolio-card {
+    grid-template-columns: repeat(auto-fit, 300px);
+    top: 620px;
+  }
+  .portfolio-card-content-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .portfolio-card-desc {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .portfolio {
+    padding: 30px 0 550px;
+  }
+  .portfolio-complete {
+    gap: 30px;
+  }
+  .relation-container {
+    margin: 0;
+  }
+  .relation-services {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    row-gap: 50px;
+  }
+  .callback-form {
+    min-width: auto;
+    width: 300px;
+  }
+  .industry-services {
+    flex-direction: column;
+  }
+  .resources-item {
+    min-height: auto;
+    height: 500px;
+  }
+  .footer-bottom-links-flex,
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .faq-question-title {
+    font-size: 12px;
+  }
+  .resources-card {
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+  .resources-item-img {
+    width: 100%;
+  }
+}
